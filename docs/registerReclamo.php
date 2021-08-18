@@ -759,25 +759,25 @@ if (isset($representante) && $representante == "2") {
             try {
                 $mailUsuario->SMTPDebug = 0;
                 $mailUsuario->isSMTP();
-                $mailUsuario->Host = 'mail.olgercastropalacios.com';
+                $mailUsuario->Host = 'smtp-mail.outlook.com';
                 $mailUsuario->SMTPAuth = true;
-                $mailUsuario->Username = 'reclamoshnseb@olgercastropalacios.com';
-                $mailUsuario->Password = '.^P;mSX.{.}q';
-                $mailUsuario->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                $mailUsuario->Port = 465;
+                $mailUsuario->Username = 'libroreclamacioneshnseb@outlook.com';
+                $mailUsuario->Password = 'Sistemas2021+-+@';
+                $mailUsuario->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                $mailUsuario->Port = 587;
 
                 $mailOficina1->SMTPDebug = 0;
                 $mailOficina1->isSMTP();
-                $mailOficina1->Host = 'mail.olgercastropalacios.com';
+                $mailOficina1->Host = 'smtp-mail.outlook.com';
                 $mailOficina1->SMTPAuth = true;
-                $mailOficina1->Username = 'reclamoshnseb@olgercastropalacios.com';
-                $mailOficina1->Password = '.^P;mSX.{.}q';
-                $mailOficina1->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                $mailOficina1->Port = 465;
+                $mailOficina1->Username = 'libroreclamacioneshnseb@outlook.com';
+                $mailOficina1->Password = 'Sistemas2021+-+@';
+                $mailOficina1->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                $mailOficina1->Port = 587;
 
                 // Recipientes
-                $mailUsuario->setFrom('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
-                $mailOficina1->setFrom('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
+                $mailUsuario->setFrom('libroreclamacioneshnseb@outlook.com', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
+                $mailOficina1->setFrom('libroreclamacioneshnseb@outlook.com', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
                 $mailUsuario->addAddress($destinoUsuario);
                 $mailOficina1->addAddress($destinoOficina);
                 $mailUsuario->addReplyTo('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
@@ -1553,25 +1553,25 @@ if (isset($representante) && $representante == "1") {
             try {
                 $mailUsuario2->SMTPDebug = 0;
                 $mailUsuario2->isSMTP();
-                $mailUsuario2->Host = 'mail.olgercastropalacios.com';
+                $mailUsuario2->Host = 'smtp-mail.outlook.com';
                 $mailUsuario2->SMTPAuth = true;
-                $mailUsuario2->Username = 'reclamoshnseb@olgercastropalacios.com';
-                $mailUsuario2->Password = '.^P;mSX.{.}q';
-                $mailUsuario2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                $mailUsuario2->Port = 465;
+                $mailUsuario2->Username = 'libroreclamacioneshnseb@outlook.com';
+                $mailUsuario2->Password = 'Sistemas2021+-+@';
+                $mailUsuario2->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                $mailUsuario2->Port = 587;
 
                 $mailOficina2->SMTPDebug = 0;
                 $mailOficina2->isSMTP();
-                $mailOficina2->Host = 'mail.olgercastropalacios.com';
+                $mailOficina2->Host = 'smtp-mail.outlook.com';
                 $mailOficina2->SMTPAuth = true;
-                $mailOficina2->Username = 'reclamoshnseb@olgercastropalacios.com';
-                $mailOficina2->Password = '.^P;mSX.{.}q';
-                $mailOficina2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-                $mailOficina2->Port = 465;
+                $mailOficina2->Username = 'libroreclamacioneshnseb@outlook.com';
+                $mailOficina2->Password = 'Sistemas2021+-+@';
+                $mailOficina2->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+                $mailOficina2->Port = 587;
 
                 // Recipientes
-                $mailUsuario2->setFrom('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
-                $mailOficina2->setFrom('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
+                $mailUsuario2->setFrom('libroreclamacioneshnseb@outlook.com', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
+                $mailOficina2->setFrom('libroreclamacioneshnseb@outlook.com', 'Libro de Reclamaciones en Salud Virtual-HNSEB');
                 $mailUsuario2->addAddress($destinoUsuario2);
                 $mailOficina2->addAddress($destinoOficina2);
                 $mailUsuario2->addReplyTo('libroreclamaciones@hnseb.gob.pe', 'Libro de Reclamaciones en Salud Virtual-HNSEB');

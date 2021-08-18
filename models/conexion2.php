@@ -1,8 +1,8 @@
 <?php
 $dbHost = 'localhost';
-$dbUsername = 'olgercas_reclamos';
-$dbPassword = 'LReclamosHNSEB.2021';
-$dbName = 'olgercas_reclamoshnseb';
+$dbUsername = 'regrec-hnseb';
+$dbPassword = '^CyKF#9ry%Z*W#h#EMiQ';
+$dbName = 'db-reclamos-web';
 
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 $db->set_charset("utf8");

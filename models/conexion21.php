@@ -1,8 +1,8 @@
 <?php
 $server = "localhost";
-$user = "olgercas_reclamos";
-$pass = "LReclamosHNSEB.2021";
-$db = "olgercas_reclamoshnseb";
+$user = "regrec-hnseb";
+$pass = "^CyKF#9ry%Z*W#h#EMiQ";
+$db = "db-reclamos-web";
 $conexion = mysqli_connect($server, $user, $pass, $db);
 mysqli_set_charset($conexion, "utf8");
 
