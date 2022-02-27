@@ -402,8 +402,8 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="form-group">
-                            <label>Detalle del Reclamo:<span class="text-danger">&nbsp;* (3500 caracteres permitidos)</span></label>
-                            <textarea class="form-control" rows="3" placeholder="Ingrese el detalle textual de su reclamo." id="detReclamo" name="detReclamo" maxlength="3500"></textarea>
+                            <label>Detalle del Reclamo:<span class="text-danger">&nbsp;* (1500 caracteres permitidos)</span></label>
+                            <textarea class="form-control" rows="3" placeholder="Ingrese el detalle textual de su reclamo." id="detReclamo" name="detReclamo" maxlength="1500"></textarea>
                         </div>
                     </div>
                 </div>
